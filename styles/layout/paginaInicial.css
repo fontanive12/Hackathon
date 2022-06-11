@@ -11,7 +11,7 @@
     max-width: 500px;
     font-family: 'Inter', sans-serif;
     padding: 1.3rem;
-  
+    color: #51835F;
   }
 
   .header {
@@ -41,7 +41,7 @@
     color: #fff;
     align-items: center;
     text-align: center;
-    margin-left: 55px;
+    margin-left: 135px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -85,7 +85,6 @@
     margin-bottom: 40px;
     margin-top: 10px;
     font-family: 'Inter';
-    font-style: normal;
     align-items: center;
     
 
@@ -101,11 +100,9 @@
 }
 
 .form__input {
-    
-    border: 1.5px solid #000000;
-    outline-style: none;
+    border: 1px solid black;
+    outline: none;
     border-radius: 8px;
-
 }
 
 /* .button {
@@ -128,6 +125,8 @@
     margin: auto;
     font-family: 'Inter';
     color: #51835F;
+    text-decoration: none;
+    text-decoration-line: none;
 
 }
 
@@ -135,7 +134,7 @@
     width: 210px;
     height: 170px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 90px;
     
 }
 
@@ -153,8 +152,14 @@
     }
 
     .form__box {
-    width: 250px;   
+        width: 250px;   
     }
 
+    .button__paginaInicial {
+        margin-left: 65px;
+    }
     
+    .image__planta {
+        margin-left: 20px;
+    }
 }

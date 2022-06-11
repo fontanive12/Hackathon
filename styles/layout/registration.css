@@ -1,0 +1,121 @@
+.cor-1 {
+    color: #70B282;
+  }
+  .cor-2 {
+    color: #51835F;
+  }
+  .color-3 {
+    color: #FFFFFF;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #70B282;
+    margin: auto;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.circle__text {
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    align-items: flex-end;
+    margin: auto;
+    margin-top: 30px;
+    margin-top: 50px;
+}
+
+.form__title__registration {
+    color: #51835F;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.form__item__registration {
+    margin: auto;
+    margin-bottom: 80px;
+    width: 300px;
+    outline: none;
+    border-radius: 8px;
+    color: #51835F;
+}
+
+.form-item__registration {
+    margin: auto;
+    height: 30px;
+    color: #51835F;
+    border: 1px solid #51835F;
+    outline: none;
+    border-radius: 8px;
+}
+
+.button__form {
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 95px;
+
+}
+
+
+  @media only screen and (max-width:480px) {
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #70B282;
+    margin: auto;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.circle__text {
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    align-items: flex-end;
+    margin: auto;
+    margin-top: 30px;
+    margin-top: 50px;
+}
+
+.form__title__registration {
+    color: #51835F;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    
+
+}
+
+.form__item__registration {
+    margin: auto;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid pink;
+    outline: none;
+    border-radius: 8px;
+    color: #51835F;
+}
+
+.form-item__registration {
+    margin: auto;
+    height: 30px;
+    color: #51835F;
+    border: 1px solid #51835F;
+    outline: none;
+    border-radius: 8px;
+}
+
+.button__form {
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 95px;
+
+}
+  }
