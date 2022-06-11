@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  
+  .container {
+    background-color: #FFFFFF;
+    max-width: 500px;
+    font-family: 'Inter', sans-serif;
+    padding: 1.3rem;
+  
+  }
+
+  .header {
+    color: white;
+    align-items: center;
+    text-align: center;
+    background-color: #70B282;
+    padding: 1rem;
+    justify-content: space-between;
+   }
+  
+  .button {
+    background-color: #51835F;
+    max-width: max-content;
+    padding: 1rem 2.5rem;
+    border-radius: 0.8rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    outline: auto;
+    align-items: center;
+    text-align: center;
+  } 
+
+  .button__paginaInicial {
+  
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .cor-1 {
+    color: #70B282;
+  }
+  .cor-2 {
+    color: #51835F;
+  }
+  .color-3 {
+    color: #FFFFFF;
+  }
+
+
+
+
+.title {
+    color: #70B282;
+    font-size: 55px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    font-family: 'Inter';
+}
+
+.form {
+    width: 400px;
+    align-items: center;
+    margin: auto;
+    color: #70B282;
+    font-family: 'Inter';
+}
+
+
+
+.form__box {
+    width: 400px;
+    height: 30px;
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    align-items: center;
+    
+
+}
+
+.form__title {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: bold
+}
+
+.form__input {
+    
+    border: 1.5px solid #000000;
+    outline-style: none;
+    border-radius: 8px;
+
+}
+
+/* .button {
+    width: 100px;
+    background-color:#51835F;
+    border-radius: 5px;
+    border-color: #70B282;
+    color: #fff;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    
+} */
+
+.form__text {
+    font-size: 10px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Inter';
+    color: #51835F;
+
+}
+
+.image__planta {
+    width: 210px;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+
+@media only screen and (max-width:480px) {
+
+    
+
+    .form {
+        width: 250px;
+    }
+
+    .form__title {
+        font-size: 14px;
+    }
+
+    .form__box {
+    width: 250px;   
+    }
+
+    
+}

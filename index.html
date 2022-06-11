@@ -4,7 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="stylesheet" href="styles/base.css"> 
+  <link rel="stylesheet" href="styles/reset.css"> 
+  <link rel="stylesheet" href="styles/variables.css"> 
+
+  <link rel="stylesheet" href="styles/layout/paginaInicial.css"> 
+
   <title>Hackathon</title>
+  
+
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
@@ -17,6 +28,19 @@
 </head>
 <body>
 
+  <header class="header">
+    <!-- <div>
+      <img src="./img/IconMenu.png" alt="Menu">
+    </div> -->
+    <div>
+      <h1>LOGO</h1>
+    </div>
+    <!-- <div>
+      <img src="./img/user.png" alt="usuario">
+    </div> -->
+  </header>
+
+<!-- <header class="header">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Hackathon</a>
@@ -34,7 +58,44 @@
       </div>
     </div>
   </nav>
+</header> -->
 
+<div class="container">
+
+  <h1 class="title">LOGO</h1>
+
+  <section class="form">
+    <div class="form">
+        <div class="form__box">
+          <label class="form__title" for="phone"><b>Usuário (E-mail)</b></label> <br/>
+        <div class="form__input">
+          <input type="email" class="form-control" id="floatingInput">   
+        </div>           
+        </div>
+      <div class="form__box">
+        <label class="form__title" for="textarea"><b>Senha</b></label><br/>
+        <div class="form__input">
+        <input type="password" class="form-control" id="floatingPassword">
+      </div> 
+    </div>
+
+    <button class="button button__paginaInicial">Entrar</button>
+
+    <p class="form__text">Cadastre aqui.</p>
+    <p class="form__text">Esqueceu a senha?</p>
+
+    <img class="image__planta" src="images/planta.png"
+        />
+
+      <!-- <label class="form__title" for="phone"><b>Usuário</b></label> <br/>
+        <input type="email" class="form-control" id="floatingInput">
+     
+        <label class="form__title" for="textarea"><b>Senha</b></label><br/>
+        <input type="password" class="form-control" id="floatingPassword"> -->
+    </div>    
+</section>
+
+</div>
   
 </body>
 </html>
